@@ -1,0 +1,111 @@
+/* header */
+#head {
+  background-color: rgba(26, 30, 31);
+  padding: 15px;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1234;
+}
+.fixedhead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 2px rgba(35, 33, 33, 0.929);
+}
+.main-menu {
+  padding: 15px 40px 15px 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 30%;
+}
+.logo a {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+.logo a img {
+  width: 40px;
+}
+
+/* navigation */
+.navigation {
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+}
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-ul li a {
+  color: white;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-ul li a:hover {
+  color: rgba(0, 163, 224);
+}
+
+/* 1st section */
+.tech-edu {
+  width: 100%;
+  height: 352px;
+}
+.tech-img {
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/background.webp);
+  background-position: center;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.tech-title {
+  width: 100%;
+  padding-top: 90px;
+}
+.tech-title h3 {
+  margin: 0 30px;
+  color: white;
+  font-size: 40px;
+  line-height: 1.6em;
+}
+
+/* 2nd section */
+.info {
+  width: 100%;
+  height: auto;
+  background-color: rgba(43, 43, 43);
+}
+.info-container {
+  width: 80%;
+  height: 460px;
+  margin: auto;
+  padding-top: 40px;
+}
+.info-text p {
+  color: #f4f4f4;
+  font-size: 28px;
+  line-height: 1.6em;
+  letter-spacing: normal;
+}
+.info-link {
+  margin-top: 30px;
+}
+.info-link a {
+  color: rgb(0, 163, 224);
+  font-weight: 600;
+  font-size: 24px;
+}
