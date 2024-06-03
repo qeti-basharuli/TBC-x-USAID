@@ -110,6 +110,58 @@
   font-size: 24px;
 }
 
+/* accordion */
+.accordion {
+  width: 100%;
+  height: 900px;
+  background-color: rgb(22, 22, 22);
+}
+.accordion-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 80px 20px;
+}
+.accordion-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  height: auto;
+}
+.accordion-link span {
+  color: #f4f4f4;
+  font-size: 24px;
+}
+.accordion-link a {
+  color: rgba(0, 163, 224);
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.accordion-items {
+  width: 100%;
+}
+.accordion-items button {
+  width: 100%;
+  padding: 15px 0px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #f4f4f4;
+  border-style: none;
+  background-color: rgb(22, 22, 22);
+  text-align: left;
+  border-bottom: 0.5px solid #f4f4f4;
+}
+.accordion-container {
+  background-color: rgb(22, 22, 22);
+  padding-left: 8px;
+  color: #f4f4f4;
+}
+.accordion-container  p {
+  font-size: 14px;
+  display: inline;
+  padding-bottom: 10px;
+}
 
 /* footer */
 footer {
