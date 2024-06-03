@@ -1,6 +1,6 @@
 /* header */
 #head {
-  background-color: rgba(26, 30, 31);
+  background-color: rgba(30, 31, 33);
   padding: 15px;
   text-align: center;
   color: white;
@@ -108,4 +108,50 @@
   color: rgb(0, 163, 224);
   font-weight: 600;
   font-size: 24px;
+}
+
+
+/* footer */
+footer {
+  width: 100%;
+  height: 370px;
+  background-color: rgba(30, 31, 33);
+}
+.foot-container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+}
+.foot-logo {
+  grid-column: 1 / span 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons ul {
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+  display: flex;
+}
+.copyright p {
+  color: #f4f4f4;
+}
+.rules {
+  grid-column: 1 / span 2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.rules a {
+  color: #f4f4f4;
+}
+.mail a {
+  margin: auto;
+  padding: 12px 40px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(0, 163, 224);
 }
