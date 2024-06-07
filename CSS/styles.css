@@ -90,7 +90,7 @@ a:is(:link, :active, :visited).active {
 .tech-img {
   width: 100%;
   height: 100%;
-  background-image: url(//images/background.webp);
+  background-image: url(../images/background.webp);
   background-position: center;
   -o-object-fit: cover;
   object-fit: cover;
